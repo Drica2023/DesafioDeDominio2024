@@ -2,6 +2,7 @@ package br.com.dio;
 
 import java.time.LocalDate;
 
+import br.com.dio.bootcamp.Conteudo;
 import br.com.dio.bootcamp.Cursos;
 import br.com.dio.bootcamp.Mentoria;
 
@@ -14,6 +15,8 @@ public class Principal {
 		cursos1.setTitulo("Java");
 		cursos1.setDescricao(" bootcamp Java");
 		cursos1.setCargaHoraria(80);
+		
+		Conteudo conteudo = new Cursos();
 		
 		mentoria1.setTitulo("MentoriaJava");
 		mentoria1.setDescricao(" Mentoria bootcamp Java");
